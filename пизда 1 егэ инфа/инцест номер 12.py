@@ -5,7 +5,7 @@ while '555' in s or '111' in s:
         s = s.replace('555', '1', 1)
     else:
         s = s.replace('111', '5', 1)
-print (s)
+print (s.count('5'))
 
 print('номер 2...☠️☠️☠️☠️☠️☠️☠️')
 s = '1' + '0' * 55
@@ -28,7 +28,7 @@ while '10' in s or '20' in s:
 print (s.count('0'))
 
 print('номер 4...☠️')
-for n in range (3, 10000):
+for n in range (4, 10000):
     s = '4' + '1' * n
     while '411' in s  or '1111' in s:
         if '411' in s:
